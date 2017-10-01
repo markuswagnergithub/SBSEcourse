@@ -19,6 +19,8 @@ The lectures cover the following topics:
 - Software Design, Refactoring
 - Project Management
 
+To access the content, simply [clone](https://www.google.com.au/search?q=github+how+to+clone+a+repository&cad=h) this repository, or have a look at this [Preview](http://htmlpreview.github.io/?https://github.com/markuswagnergithub/SBSEcourse/blob/master/course.html).
+
 ## Assessment
 
 There are three group assignments (each worth 10%), and two rounds of spotlight lights + essays (each round worth 35%). In each round, the students briefly present a recent conference article, and they summarise and criticise it in a report.
