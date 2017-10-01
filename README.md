@@ -1,5 +1,9 @@
 # Search-Based Software Engineering Course
 
+## Disclaimer
+
+This repository contains most of the material that was used by me in teaching this course at the University of Adelaide, Australia in Semester 2, 2017.
+
 ## Course Description
 
 Many activities in software engineering involve an element of search. Some examples include selection of requirements, localisation and correction of defects, and the optimisation of test coverage. The fast-growing field of Search-Based Software Engineering (SBSE) applies computing resources to these search problems to improve the efficiency and quality of software engineering processes.
@@ -20,12 +24,10 @@ There are three group assignments (each worth 10%), and two rounds of spotlight 
 
 ## Reuse of Material
 
-You can reuse material without permission. 
-I only ask you to include URLs to this repository when you reuse material.
-If you like the material, then give me a "star" in Github.
+You can reuse material without asking me for permission. 
+I only ask you to include a URL to this repository whenever you reuse material from here. 
+If you like the material, then give me a "star" in Github :)
 
-If you have any questions or comments, do not hesitate to contact me: markus.wagner@adelaide.edu.au, http://cs.adelaide.edu.au/~markus/
+If you have any questions or comments, please do not hesitate to contact me: [Email](markus.wagner@adelaide.edu.au), [Website](http://cs.adelaide.edu.au/~markus/), [Google Scholar](https://scholar.google.com.au/citations?user=9cbh6PoAAAAJ&hl=en). However, I will not give away the answers to the assignments ;)
 
-However, I will not give away the answers to the assignments ;)
-
-Enjoy!
+Hope this helps. Enjoy!
