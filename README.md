@@ -29,7 +29,7 @@ There are three group assignments (each worth 10%), and two rounds of spotlight 
 
 You can reuse material without asking me for permission. 
 I only ask you to include a URL to this repository whenever you reuse material from here. 
-If you like the material, then give me a "star" in Github :)
+If you like the material, then give me a "star" in Github and a "+1" in [Reddit](https://www.reddit.com/r/CompIntellCourses/comments/73kn7s/searchbased_software_engineering/) :)
 
 If you have any questions or comments, please do not hesitate to contact me: [Email](mailto:markus.wagner@adelaide.edu.au), [Website](http://cs.adelaide.edu.au/~markus/), [Google Scholar](https://scholar.google.com.au/citations?user=9cbh6PoAAAAJ&hl=en). However, I will not give away the answers to the assignments ;)
 
