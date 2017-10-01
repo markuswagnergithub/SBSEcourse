@@ -7,8 +7,9 @@ This repository contains most of the material that was used by me in teaching th
 ## Course Description
 
 Many activities in software engineering involve an element of search. Some examples include selection of requirements, localisation and correction of defects, and the optimisation of test coverage. The fast-growing field of Search-Based Software Engineering (SBSE) applies computing resources to these search problems to improve the efficiency and quality of software engineering processes.
-This course aims to introduce students to a wide range of SBSE terminology, techniques, and processes. The concepts taught in the lectures will be practised and reinforced by participation in three projects, and one seminar with a written essay on a recent SBSE-related conference article.
-The lectures will cover the following topics:
+This course aims to introduce students to a wide range of SBSE terminology, techniques, and processes. The concepts taught in the lectures is practised and reinforced by participation in three projects, and seminars with written essays on a recent SBSE-related conference article.
+
+The lectures cover the following topics:
 - Introduction to SBSE
 - Fitness Landscapes, Local Search Algorithms - Advanced Algorithms
 - Multi-Objective Optimisation
@@ -20,7 +21,7 @@ The lectures will cover the following topics:
 
 ## Assessment
 
-There are three group assignments (each worth 10%), and two rounds of spotlight lights + essays (each round worth 35%). In each round, the students will briefly present a recent conference article, and they summarise and criticise it in a report.
+There are three group assignments (each worth 10%), and two rounds of spotlight lights + essays (each round worth 35%). In each round, the students briefly present a recent conference article, and they summarise and criticise it in a report.
 
 ## Reuse of Material
 
