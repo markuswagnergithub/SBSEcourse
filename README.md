@@ -29,6 +29,6 @@ You can reuse material without asking me for permission.
 I only ask you to include a URL to this repository whenever you reuse material from here. 
 If you like the material, then give me a "star" in Github :)
 
-If you have any questions or comments, please do not hesitate to contact me: [Email](markus.wagner@adelaide.edu.au), [Website](http://cs.adelaide.edu.au/~markus/), [Google Scholar](https://scholar.google.com.au/citations?user=9cbh6PoAAAAJ&hl=en). However, I will not give away the answers to the assignments ;)
+If you have any questions or comments, please do not hesitate to contact me: [Email](mailto:markus.wagner@adelaide.edu.au), [Website](http://cs.adelaide.edu.au/~markus/), [Google Scholar](https://scholar.google.com.au/citations?user=9cbh6PoAAAAJ&hl=en). However, I will not give away the answers to the assignments ;)
 
 Hope this helps. Enjoy!
