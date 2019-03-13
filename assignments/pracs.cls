@@ -6,7 +6,7 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \lhead{COMP SCI 4409/4809/7409 Search-Based Software Engineering}
-\rhead{Semester 2, 2017}
+\rhead{Semester 2, 2018}
 \usepackage[english]{babel}
 \setlength{\parskip}{\medskipamount}
 \setlength{\parindent}{0pt}
@@ -46,7 +46,7 @@
 
 \newcommand{\classprop}[2]{\textbf{#1} & #2 \\}
 
-\newcommand{\baseurl}{http://www.cs.adelaide.edu.au/users/second/dsa/2010-s1/assignments/\pracname}
+%\newcommand{\baseurl}{http://www.cs.adelaide.edu.au/users/second/dsa/2010-s1/assignments/\pracname}
 \newcommand{\file}[1]{\texttt{\href{\baseurl/#1}{#1}}}
 
 \makeatother

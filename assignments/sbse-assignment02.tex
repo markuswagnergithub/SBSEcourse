@@ -1,6 +1,6 @@
 \documentclass{pracs}
 \usepackage{cases}
-\newcommand{\duedate}{22 September 2017}
+\newcommand{\duedate}{21 September 2018}
 \newcommand{\longname}{Assignment 2}
 \newcommand{\pracname}{prac2}
 \newtheorem{exercise}{Exercise}
@@ -29,8 +29,8 @@ In this course, we have already talked about the optimising code for energy cons
 First, it is mandatory that you do some reading: 
 
 \begin{itemize}
-\item \texttt{sbse-assignment02-paper.pdf} is a copy of the FSE 2015 paper "Optimizing energy consumption of GUIs in Android apps: a multi-objective approach", \url{https://myuni-canvas.adelaide.edu.au/files/1819780/download?download_frd=1}
-\item \texttt{sbse-assignment02-slides.pdf} are slides to provide a gentle introduction to the topic, \url{https://myuni-canvas.adelaide.edu.au/files/1819781/download?download_frd=1}
+\item \texttt{sbse-assignment02-paper.pdf} is a copy of the FSE 2015 paper "Optimizing energy consumption of GUIs in Android apps: a multi-objective approach", \url{https://myuni-canvas.adelaide.edu.au/files/3275060/download?download_frd=1}
+\item \texttt{sbse-assignment02-slides.pdf} are slides to provide a gentle introduction to the topic, \url{https://myuni-canvas.adelaide.edu.au/files/3275061/download?download_frd=1}
 \end{itemize}
 
 There is no need to understand everything, however, we strongly recommend to spend maybe two to three hours as a team with reading both PDFs and looking up terms that you have not heard of before. If something remains really unclear, then please ask via the discussion forums. 
@@ -40,8 +40,8 @@ The first assignment has been relatively theoretical. This second assignment is 
 Lastly, download the following two files:
 
 \begin{itemize}
-\item Nexus 6 experimental data, \url{https://myuni-canvas.adelaide.edu.au/files/1820247/download?download_frd=1}
-\item The target application with two graphical user interfaces (inside the Calculator package), and  an optimiser app (called GuiOptimiser) that can serve as a starting point for the optimisation. The optimiser will run the target app in full-screen mode, take a screenshot of its graphical user interface, and save it to disk. This was tested under Windws/Linux/MacOS. Download link: \url{https://myuni-canvas.adelaide.edu.au/files/1820752/download?download_frd=1}
+\item Nexus 6 experimental data, \url{https://myuni-canvas.adelaide.edu.au/files/3275066/download?download_frd=1}
+\item The target application with two graphical user interfaces (inside the Calculator package), and  an optimiser app (called GuiOptimiser) that can serve as a starting point for the optimisation. The optimiser will run the target app in full-screen mode, take a screenshot of its graphical user interface, and save it to disk. This was tested under Windws/Linux/MacOS. Download link: \url{https://myuni-canvas.adelaide.edu.au/files/3275063/download?download_frd=1}
 \end{itemize}
 
 In case you cannot take screenshot reliably, try increasing the following value in guioptimiser.GuiOptimiser: \\\texttt{TARGET\_APP\_RUNNINGTIME = 1000; // try 5000 or even longer}.
@@ -51,12 +51,20 @@ If you encounter technical problems, please post your problem with a description
 
 
 
-
-
 \section{Overview}
-Assignments should be done in groups consisting of two (2) students.  If you have problems finding a group partner use the forum to search for group partners or contact the lecturer.
+Assignments should be done in groups consisting of four (4) students.  If you have problems finding a group partner use the forum to search for group partners or contact the lecturer.
+
+\textbf{For this assignment you will have to hand in a report briefly describing what you have done. In your experiments you will have to write some code -- you will need to include the code in your submission.}
 
 \section{Assignment}
+
+\begin{exercise}
+Team work: who has done what? (zero points)
+\end{exercise}
+
+We'd like each team member to write one paragraph about what he or she has contributed to this assignment. We will not mark this, and it will not have any effect on the marking of the other exercises. You might now ask "why do this then?" --- well, through this no-stakes approach, we'd like to encourage self-regulation within the group and cooperative learning. You can't lose, you can only win.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{exercise}
 Determine the surrogate function (20 points)
@@ -78,7 +86,7 @@ You can see that red and green use similar amounts of charge, i.e., the draw dif
 
 Determine the average charge consumed for the colours red, green, and blue. 
 
-Calculate the average charge used per hour when considering only the first 10, the first 100, and the first 1000 samples, and when considering the entire duration of the experiment. You will see that the average consumption varies slightly depending on the duration of the experiment. To to this, use the columns named \texttt{charge\_used\_accumulated}\footnote{This is based on \texttt{CHARGE\_COUNTER\_EXT} with a 8nAh resolution, see \url{https://source.android.com/devices/tech/power/device}.} (the units are nAh for nano Ampere hours) and \texttt{system\_time\_in\_ms}. 
+Calculate the average charge used per hour when considering only the first 10, the first 100, and the first 1000 samples, and when considering the entire duration of the experiment. You will see that the average consumption varies slightly depending on the duration of the experiment. To do this, use the columns named \texttt{charge\_used\_accumulated}\footnote{This is based on \texttt{CHARGE\_COUNTER\_EXT} with a 8nAh resolution, see \url{https://source.android.com/devices/tech/power/device}.} (the units are nAh for nano Ampere hours) and \texttt{system\_time\_in\_ms}. 
 
 The unit that you use should be mA (milli Ampere), and you should use the scientific notation to report the results.
 
@@ -88,6 +96,8 @@ Notes:
 \begin{itemize}
 \item Do not forget to deduct the charge consumed for black.
 \end{itemize}
+
+Present the calculation in the report, including plots if you decide to use some. This section must not be longer than two pages. In this section, make sure you include the aim of the calculations, the calculations done, and the results and the interpretation of the results.
 
 \noindent\textbf{Part 2}
 
@@ -108,10 +118,9 @@ Notes:
 \url{https://stackoverflow.com/questions/6524196/java-get-pixel-array-from-image}\\
 \url{https://stackoverflow.com/questions/22391353/get-color-of-each-pixel-of-an-image-using-bufferedimages}\\
 \url{https://www.dyclassroom.com/image-processing-project/how-to-get-and-set-pixel-value-in-java}
-
 \end{itemize}
 
-
+In the report, include a copy of your implementation of \texttt{calculateChargeConumptionPerPixel} and include a brief description in English of how it works.
 
 
 
@@ -146,16 +155,17 @@ For each target user interface for for each algorithm report the following:
 \item Submit the best final configuration found and the corresponding screenshot.
 \end{itemize}
 
-It is voluntary to use fancy visualisations (e.g. box plots) to show the performance.
+It is voluntary to use fancy visualisations (e.g. violin plots) to show the performance --- revisit the lecture on working with algorithms for a few additional ideas.
 
 Notes:
 \begin{itemize}
 \item To represent a solution, it might be natural to consider integer arrays \texttt{int}$[]$.
-\item As the experiments can generate a lot of data, you might want to include a function that deletes the screenshot as you as you have calculated its charge consumption.
+\item As the experiments can generate a lot of data, you might want to include a function that deletes the screenshot as soon as you have calculated its charge consumption.
 \item In case you find it difficult to process the screenshots produced in the PNG format, then you can change the format to BMP in guioptimiser.Capture.
 \end{itemize}
 
-
+In the report, you must briefly describe the algorithms and the variation operators (``mutations'') that you have implemented. For the variation operators, describe why you designed them the way you did. 
+You should also briefly present your results. This section should not be longer than three pages.
 
 
 \begin{exercise}
@@ -176,7 +186,7 @@ Report for each combination:
 \item Show the final populations as scatter plots in the objective space. 
 \end{itemize}
 
-Ideally, do not submit to us 160 plots, but put them together in a way that you think supports the comparison of the different combinations.
+Ideally, do not submit to us 160 plots, but put them together in a way that you think supports the comparison of the different combinations. Again, you might want to revisit the lecture on working with algorithms for a few additional ideas.
 
 Notes:
 \begin{itemize}
@@ -184,6 +194,8 @@ Notes:
 \item MOEA Framework user manual (Chapters 2, 3, and 5 are the most important ones): \url{https://sourceforge.net/p/moeaframework/bugs/_discuss/thread/12d4a637/4a31/attachment/MOEAFramework-2.1-ManualFixed.pdf}
 \item MOEA Framework examples: \url{http://moeaframework.org/examples.html}
 \end{itemize}
+
+In your report, explain in English the changes to the existing code base that you had to apply, and explain what new code you had to write. This should be no longer than one page.
 
 \textbf{General comment.} The purpose of contrasting two quite different population sizes is to show that parameter choices can matter depending on the algorithm and problem. For a while, the topic of "automated algorithm configuration" (AAC) has been quite hot, where algorithms tune other algorithms, and with the relevant papers being cited hundreds of times. What is AAC about? In short, it is about tuning an algorithm and all its parameters and switches such that the resulting configuration works well on a set of (typically unseen) problem instances.
 Slightly newer is the idea of configuring an algorithm on-the-fly either at the beginning ("per-instance-configuration") based on information that is easily available, or during a run (going into the direction of "hyperheuristics") based on observed features during the run.
@@ -197,7 +209,7 @@ In particular, the deviation is measured as: the sum of of Euclidean colour diff
 
 Step 1) Since we do not have a particular client, you need to define your own reference colour scheme. You can define something that you think is visually pleasant, or just take a random one. The only limitation is that not all colours are the same. Do this for both user interfaces.
 
-Step 2) Implement in MOEA Framework the charge consumption and the deviation from your target at a two-objective problem. Both objectives are to be minimsed.
+Step 2) Implement in MOEA Framework the charge consumption and the deviation from your target at a two-objective problem. Both objectives are to be minimised.
 
 Pick one multi-objective algorithm (for example, NSGA-II or SPEA2). Run it once with a total budget of 10,000 screenshots, and with a population size $\mu=20$.
 
@@ -209,6 +221,8 @@ Report on the outcomes (separate for each target user interface):
 
 Of course, also submit your reference screenshots.
 
+In your report, you should also briefly present your results in no more than three pages.
+
 An important note regarding those 20 screenshots: it can happen that the algorithm returns a set of configurations with fewer than 20 solutions. How come? Well, many multi-objective optimisation algorithms (or frameworks that provide them) decide that they only return as the final solution set the set of non-dominated solutions. This means that if a solution is dominated (for example, because it is worse in all objectives than another solution in the solution set), then this will be omitted in the end. For you, this means that your final solution sets can have anywhere between 1 and 20 non-dominated solutions, so you might be sending us fewer than 20 screenshots.
 
 
@@ -216,7 +230,7 @@ An important note regarding those 20 screenshots: it can happen that the algorit
 Work should be handed in using the course website. The submission should include:
 \begin{itemize}
 \item pdf file of your solutions for theoretical assignments
-\item all source files (if you created any)
+\item all source files (if you created any): if your code does not compile or if it is not sufficiently well documented, \textbf{we will cap the code-related marks at 50\%}
 \item descriptions as required in the statement of the exercises
 \item a file name README.txt that contains instructions to run the code (if any), the names, student numbers, and email addresses of the group members
 \item for each group, there should be only 1 submission
