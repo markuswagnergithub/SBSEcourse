@@ -6,7 +6,7 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \lhead{COMP SCI 4409/4809/7409 Search-Based Software Engineering}
-\rhead{Semester 2, 2018}
+\rhead{}
 \usepackage[english]{babel}
 \setlength{\parskip}{\medskipamount}
 \setlength{\parindent}{0pt}
