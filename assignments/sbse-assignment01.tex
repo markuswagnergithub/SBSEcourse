@@ -10,7 +10,7 @@
 
 \documentclass{pracs}
 \usepackage{cases}
-\newcommand{\duedate}{29 March 2019}
+\newcommand{\duedate}{Week 4}
 \newcommand{\longname}{Assignment 1}
 \newcommand{\pracname}{prac1}
 \newcommand{\ignore}[1]{}
@@ -32,14 +32,14 @@
 \noindent 
 
  \begin{center}
-    Due date: 11:59pm, \duedate, Weight: 5.0 \% of the course
+    Due: \duedate, Weight: 5.0 \% of the course
   \end{center}
 
 
 
 
 \section{Overview}
-THIS assignment need to be done \emph{individually}. 
+THIS assignment needs to be done \emph{individually}. 
 % in groups consisting of four (4) students.  If you have problems finding a group partner use the forum to search for group partners or contact the lecturer.
 
 \textbf{Reminder:} unless we explicitly allow it for specific exercises, you must not copy and paste from websites, scientific articles, your friends, ...
@@ -68,7 +68,7 @@ SBSE problems, our choice (8 points)
 Software development effort estimation is the process of predicting the most realistic amount of effort (expressed in terms of person-hours or money or software size) required to develop or maintain software based on incomplete, uncertain and noisy input. 
 
 The problem:\\
-You are given a set of $n$ well-formed equations (i.e., $E_1$, $E_2$, $E_3$, \ldots, $E_n$) that can be used to produce cost predictions and a set of real-world data. From these, you need to select the equation $E_i$ with the best predictive capability.
+You are given a set of $n$ well-formed, immutable equations (i.e., $E_1$, $E_2$, $E_3$, \ldots, $E_n$) that can be used to produce cost predictions and a set of real-world data. From these, you need to select the equation $E_i$ with the best predictive capability.
 
 Answer the following questions:
 \begin{enumerate}
@@ -81,12 +81,12 @@ Answer the following questions:
 In your report, be comprehensive in your answers. 
 
 \begin{exercise}
-SBSE problems, your choices (32 points)
+SBSE problems, your choices (40 points)
 \end{exercise}
 
-Describe four (4) other software engineering problems (different from the one in Exercise 1) to which SBSE techniques can be applied to. 
+Describe five (5) other software engineering problems (different from the one in Exercise 1) to which SBSE techniques can be applied to. 
 
-In all four cases:
+In all five cases:
 \begin{enumerate}
 \item describe the problem, 
 \item describe why it is fit for SBSE (hint: think about the search space), 
@@ -97,7 +97,7 @@ In all four cases:
 
 Notes:
 \begin{itemize}
-\item In your report, be comprehensive in your answers. Think of a real-world situation where Mahmoud (who will mark your assignment) is your team leader who needs to be convinced.
+\item In your report, be comprehensive in your answers. Think of a real-world situation where the tutor (who will mark your assignment) is your team leader who needs to be convinced.
 \item The problems can be (but don't have to be) from the papers that you will be presenting and discussing in the spotlight talks and essays. This is to encourage you to start early with your spotlight talks and essays :) If you decide to go with this option, then please provide the URL to the paper.
 \item Remember that fundamental combinatorial problems, such as travel salesman and knapsack problems, are not SBSE problems.  
 \end{itemize}
@@ -131,7 +131,7 @@ It is important that your test suite respects our following constraints:
 \item If collision avoidance braking is enhanced, then lateral range finder must be included.
 \end{itemize}
 
-Inn your report, include a description of how you generated the tests and how you considered the constraints. This description should be no longer than two pages.
+In your report, include a description of how you generated the tests and how you considered the constraints. This description should be no longer than two pages.
 
 Note: You can see this as a scenario from Software Product Line Engineering (SPLE), and your task is to find the valid combinations. In SPLE, the goal is to create collections of similar products from a shared set of assets. Here is a visualisation of the overall situation, created in Eclipse:
 
@@ -143,7 +143,7 @@ False-optional feature means that it is declared optional, but it is always sele
 
 
 \begin{exercise}
-Real-world interaction testing (40 points)
+Real-world interaction testing (32 points)
 \end{exercise}
 
 \textbf{Part 1}
@@ -154,13 +154,15 @@ Your example needs to be different from the one you are submitting as an answer 
 
 You can use online resources as stated in Exercise 3, if you following our referencing requirement.
 
-As before, be comprehensive in your answers. Think of a real-world situation where Mahmoud (who will mark your assignment) is your team leader who needs to be convinced.
+As before, be comprehensive in your answers. Think of a real-world situation where the tutor (who will mark your assignment) is your team leader who needs to be convinced.
 
 \textbf{Part 2}
 
 Django is a very popular Python-based framework for rapid development of web-based applications. Among popular sites using it are: Instagram, Mozilla and The Washington Times. Django is written in Python and comes with a global settings file that contains parameters that can be configured in any Django-based web application. 
 
-Given the settings file at \url{https://github.com/django/django/blob/master/django/conf/global_settings.py}, answer the following questions:
+Given the settings file at\\
+\url{https://github.com/django/django/blob/45bef6706ae7436b5c2c503018b21ff70b2e6728/django/conf/global_settings.py}
+answer the following questions:
 
 \begin{enumerate}
 \item How many parameters are there in the Django settings file?
@@ -171,7 +173,7 @@ Given the settings file at \url{https://github.com/django/django/blob/master/dja
 Notes:
 \begin{itemize}
 \item You are not allowed to use any existing software for the generation of the test suite.
-\item Provide the list of tests as an additional plain text file (no PDF/DOCX/...). In this file, list one test case per line, in any human-readable encoding you like.
+\item Provide the list of tests as an additional plain text file (no PDF/DOCX/CSV/...). In this file, list one test case per line, in any human-readable encoding you like.
 \item It is NOT necessary to provide executable code that runs Django.
 \end{itemize}
 
@@ -182,13 +184,15 @@ Notes:
 
 
 \section{General procedure for handing in the assignment}
-Work should be handed in using the course website. The submission should include:
+Work should be handed in using the course website. The submission must include:
 \begin{itemize}
 \item pdf file of your solutions for theoretical assignments
 \item all source files (if you created any)
 \item descriptions as required in the statement of the exercises
 \item a file name README.txt that contains instructions to run the code (if any), the names, student numbers, and email addresses of the group members
 \end{itemize}
+
+\textbf{\emph{Failure to meet all requirements of the 'General procedure for handing in the assignment' will lead to a reduction by twenty (20) marks.}}
 
 Note: as there is little to no coding involved in this assignment, there will be NO progress presentation session for this assignment.
 
