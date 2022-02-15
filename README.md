@@ -2,7 +2,7 @@
 
 ## Disclaimer
 
-This repository contains most of the material that was used by me in teaching this course at the University of Adelaide, Australia in Semester 2, 2017, Semester 2, 2018, and Semester 1, 2019.
+This repository contains most of the material that was used by me in teaching this course at the University of Adelaide, Australia in Semester 2, 2017/2018 and Semester 1, 2019/2020/2021.
 
 ## Course Description
 
