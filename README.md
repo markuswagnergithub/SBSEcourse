@@ -23,7 +23,7 @@ To access the content, simply [clone](https://www.google.com.au/search?q=github+
 
 ## Assessment
 
-There are three group assignments (each worth 10%), and two rounds of spotlight lights + essays (each round worth 35%). In each round, the students briefly present a recent conference article, and they summarise and criticise it in a report.
+There are three group assignments (each worth 10%), and two rounds of spotlight lights + essays (each round worth 35%). In each round, the students briefly present a recent conference article, and they summarise and criticise it in a report. At some point, we added weekly quizzes to encourage early interaction with the taught material; the quizzes are not part of this GitHub version, but I might share them in the future.
 
 ## Reuse of Material
 
