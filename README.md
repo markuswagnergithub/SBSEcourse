@@ -25,6 +25,8 @@ To access the content, simply [clone](https://www.google.com.au/search?q=github+
 
 There are three group assignments (each worth 10%), and two rounds of spotlight lights + essays (each round worth 35%). In each round, the students briefly present a recent conference article, and they summarise and criticise it in a report. At some point, we added weekly quizzes to encourage early interaction with the taught material; the quizzes are not part of this GitHub version, but I might share them in the future.
 
+Two rounds of live presentations can be done if the course has 30-50 students. For larger enrolment numbers, I recommend to move to videos and to replace the blocked lecture slots then with a smaller number video watching sessions: this still facilitates peer teaching, and the teachers can provide preliminary feedback right away, too.
+
 ## Reuse of Material
 
 You can reuse material without asking me for permission. 
